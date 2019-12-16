@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097973215406",
+    "firebase_url": "https://toko-80682.firebaseio.com",
+    "project_id": "toko-80682",
+    "storage_bucket": "toko-80682.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097973215406:android:92c5f7f43891b7239e7d3f",
+        "android_client_info": {
+          "package_name": "id.ac.polinema.toko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097973215406-00ddud47i3ho1ndkkveqm2f7v38cipi1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.polinema.toko",
+            "certificate_hash": "b081d2d18d3d920655a3f3b94af4796f46826d70"
+          }
+        },
+        {
+          "client_id": "1097973215406-tsto4ci0or8128e17f639cp5fc1hbnrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyc2GbTtrda4o63fGFPjlFjSJ5ITIRBNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097973215406-tsto4ci0or8128e17f639cp5fc1hbnrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
