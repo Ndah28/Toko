@@ -22,6 +22,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Collections;
 
+import id.ac.polinema.toko.models.data_toko;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //Deklarasi Variable
@@ -153,8 +155,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Jika Tidak, maka data dapat diproses dan meyimpannya pada Database
                     Menyimpan data referensi pada Database berdasarkan User ID dari masing-masing Akun
                     */
-                    getReference.child("Admin").child(getUserID).child("Mahasiswa").push()
-                            .setValue(new data_toko(getKode, getNama, getHarga))
+                    getReference.child("Admin").child(getUserID).child("Customer").push()
+                            .setValue(new data_toko(getKode,getNama,getHarga))
                             .addOnSuccessListener(this, new OnSuccessListener() {
                                 @Override
                                 public void onSuccess(Object o) {
@@ -179,6 +181,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 finish();
                             }
                         });
+                break;
+
+            case R.id.showdata:
+                startActivity(new Intent(MainActivity.this, MyListData.class));
                 break;
         }
     }
